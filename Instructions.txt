@@ -1,0 +1,11 @@
+ Step 1 — Generate the voxel + PMI files from your STEP file:
+  conda run -n ap242 python step_ap242_to_voxel_semantic_layer.py YourFile.step
+  This produces YourFile_voxel_semantic.npz and YourFile_voxel_semantic.json.
+
+  Step 2 — (Optional) Inspect the PMI data in the terminal:
+  conda run -n ap242 python inspect_json.py YourFile_voxel_semantic.json
+
+  Step 3 — Visualize:
+  conda run -n ap242 python view3d.py YourFile_voxel_semantic.npz --mode mbd
+  --json YourFile_voxel_semantic.json
+  Swap mbd for regions, explode, pmi, or occupancy as needed.

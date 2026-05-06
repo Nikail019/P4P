@@ -1,0 +1,1056 @@
+{
+  "metadata": {
+    "format": "step_ap242_voxel_semantic_layer_v1",
+    "notes": [
+      "occupancy grid stores geometry",
+      "region_id_grid stores best-effort boundary face-region labels",
+      "PMI remains in a sidecar semantic layer rather than dense voxel channels"
+    ]
+  },
+  "occ_regions": [
+    {
+      "occ_face_index": 1,
+      "surface_type": "plane",
+      "origin": [
+        25.0,
+        25.0,
+        25.0
+      ],
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "radius": null,
+      "area": 1050.0,
+      "bbox_min": [
+        0.0,
+        0.0,
+        25.0
+      ],
+      "bbox_max": [
+        50.0,
+        30.0,
+        25.0
+      ],
+      "centroid": [
+        25.0,
+        15.0,
+        25.0
+      ],
+      "triangle_count": 6
+    },
+    {
+      "occ_face_index": 2,
+      "surface_type": "plane",
+      "origin": [
+        0.0,
+        25.0,
+        25.0
+      ],
+      "direction": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "radius": null,
+      "area": 1950.0,
+      "bbox_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bbox_max": [
+        0.0,
+        50.0,
+        45.0
+      ],
+      "centroid": [
+        0.0,
+        23.75,
+        28.75
+      ],
+      "triangle_count": 6
+    },
+    {
+      "occ_face_index": 3,
+      "surface_type": "plane",
+      "origin": [
+        25.0,
+        0.0,
+        25.0
+      ],
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": null,
+      "area": 1850.0,
+      "bbox_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bbox_max": [
+        50.0,
+        0.0,
+        45.0
+      ],
+      "centroid": [
+        25.0,
+        0.0,
+        28.75
+      ],
+      "triangle_count": 6
+    },
+    {
+      "occ_face_index": 4,
+      "surface_type": "plane",
+      "origin": [
+        50.0,
+        25.0,
+        25.0
+      ],
+      "direction": [
+        -1.0,
+        -2.77555756156289e-16,
+        0.0
+      ],
+      "radius": null,
+      "area": 1950.0,
+      "bbox_min": [
+        50.0,
+        0.0,
+        0.0
+      ],
+      "bbox_max": [
+        50.0,
+        50.0,
+        45.0
+      ],
+      "centroid": [
+        50.0,
+        23.75,
+        28.75
+      ],
+      "triangle_count": 6
+    },
+    {
+      "occ_face_index": 5,
+      "surface_type": "plane",
+      "origin": [
+        25.0,
+        50.0,
+        25.0
+      ],
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": null,
+      "area": 2250.0,
+      "bbox_min": [
+        0.0,
+        50.0,
+        0.0
+      ],
+      "bbox_max": [
+        50.0,
+        50.0,
+        45.0
+      ],
+      "centroid": [
+        25.0,
+        50.0,
+        22.5
+      ],
+      "triangle_count": 2
+    },
+    {
+      "occ_face_index": 6,
+      "surface_type": "plane",
+      "origin": [
+        25.0,
+        25.0,
+        0.0
+      ],
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "radius": null,
+      "area": 2499.9999999999995,
+      "bbox_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bbox_max": [
+        50.0,
+        50.0,
+        0.0
+      ],
+      "centroid": [
+        25.0,
+        25.0,
+        0.0
+      ],
+      "triangle_count": 2
+    },
+    {
+      "occ_face_index": 7,
+      "surface_type": "plane",
+      "origin": [
+        7.5,
+        15.0,
+        45.0
+      ],
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": null,
+      "area": 299.99999999999994,
+      "bbox_min": [
+        0.0,
+        15.0,
+        25.0
+      ],
+      "bbox_max": [
+        15.0,
+        15.0,
+        45.0
+      ],
+      "centroid": [
+        7.5,
+        15.0,
+        35.0
+      ],
+      "triangle_count": 2
+    },
+    {
+      "occ_face_index": 8,
+      "surface_type": "plane",
+      "origin": [
+        15.0,
+        7.5,
+        45.0
+      ],
+      "direction": [
+        -1.0,
+        -2.31296463463574e-16,
+        0.0
+      ],
+      "radius": null,
+      "area": 300.0,
+      "bbox_min": [
+        15.0,
+        0.0,
+        25.0
+      ],
+      "bbox_max": [
+        15.0,
+        15.0,
+        45.0
+      ],
+      "centroid": [
+        15.0,
+        7.5,
+        35.0
+      ],
+      "triangle_count": 2
+    },
+    {
+      "occ_face_index": 9,
+      "surface_type": "plane",
+      "origin": [
+        25.0,
+        25.0,
+        45.0
+      ],
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "radius": null,
+      "area": 225.0,
+      "bbox_min": [
+        0.0,
+        0.0,
+        45.0
+      ],
+      "bbox_max": [
+        15.0,
+        15.0,
+        45.0
+      ],
+      "centroid": [
+        7.5,
+        7.5,
+        45.0
+      ],
+      "triangle_count": 2
+    },
+    {
+      "occ_face_index": 10,
+      "surface_type": "plane",
+      "origin": [
+        42.5,
+        15.0,
+        45.0
+      ],
+      "direction": [
+        1.15648231731787e-16,
+        -1.0,
+        0.0
+      ],
+      "radius": null,
+      "area": 300.0,
+      "bbox_min": [
+        35.0,
+        15.0,
+        25.0
+      ],
+      "bbox_max": [
+        50.0,
+        15.0,
+        45.0
+      ],
+      "centroid": [
+        42.5,
+        15.0,
+        35.0
+      ],
+      "triangle_count": 2
+    },
+    {
+      "occ_face_index": 11,
+      "surface_type": "plane",
+      "origin": [
+        35.0,
+        7.5,
+        45.0
+      ],
+      "direction": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "radius": null,
+      "area": 299.99999999999994,
+      "bbox_min": [
+        35.0,
+        0.0,
+        25.0
+      ],
+      "bbox_max": [
+        35.0,
+        15.0,
+        45.0
+      ],
+      "centroid": [
+        35.0,
+        7.5,
+        35.0
+      ],
+      "triangle_count": 2
+    },
+    {
+      "occ_face_index": 12,
+      "surface_type": "plane",
+      "origin": [
+        25.0,
+        25.0,
+        45.0
+      ],
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "radius": null,
+      "area": 225.00000000000006,
+      "bbox_min": [
+        35.0,
+        0.0,
+        45.0
+      ],
+      "bbox_max": [
+        50.0,
+        15.0,
+        45.0
+      ],
+      "centroid": [
+        42.5,
+        7.5,
+        45.0
+      ],
+      "triangle_count": 2
+    },
+    {
+      "occ_face_index": 13,
+      "surface_type": "plane",
+      "origin": [
+        25.0,
+        30.0,
+        45.0
+      ],
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": null,
+      "area": 999.9999999999998,
+      "bbox_min": [
+        0.0,
+        30.0,
+        25.0
+      ],
+      "bbox_max": [
+        50.0,
+        30.0,
+        45.0
+      ],
+      "centroid": [
+        25.0,
+        30.0,
+        35.0
+      ],
+      "triangle_count": 2
+    },
+    {
+      "occ_face_index": 14,
+      "surface_type": "plane",
+      "origin": [
+        25.0,
+        25.0,
+        45.0
+      ],
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "radius": null,
+      "area": 999.9999999999999,
+      "bbox_min": [
+        0.0,
+        30.0,
+        45.0
+      ],
+      "bbox_max": [
+        50.0,
+        50.0,
+        45.0
+      ],
+      "centroid": [
+        25.0,
+        40.0,
+        45.0
+      ],
+      "triangle_count": 2
+    }
+  ],
+  "step_faces": [
+    {
+      "step_face_id": 258,
+      "surface_type": "plane",
+      "origin": [
+        0.025,
+        0.025,
+        0.025
+      ],
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "radius": null,
+      "orientation_flag": ".T.",
+      "centroid": [
+        0.025,
+        0.015,
+        0.024999999999999998
+      ],
+      "area_estimate": null,
+      "matched_occ_face_index": 12,
+      "match_score": 1.1571220951582633
+    },
+    {
+      "step_face_id": 259,
+      "surface_type": "plane",
+      "origin": [
+        0.0,
+        0.025,
+        0.025
+      ],
+      "direction": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "radius": null,
+      "orientation_flag": ".T.",
+      "centroid": [
+        0.0,
+        0.02375,
+        0.028749999999999998
+      ],
+      "area_estimate": null,
+      "matched_occ_face_index": 2,
+      "match_score": 0.6917855808490734
+    },
+    {
+      "step_face_id": 260,
+      "surface_type": "plane",
+      "origin": [
+        0.025,
+        0.0,
+        0.025
+      ],
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": null,
+      "orientation_flag": ".F.",
+      "centroid": [
+        0.025,
+        0.0,
+        0.028749999999999998
+      ],
+      "area_estimate": null,
+      "matched_occ_face_index": 10,
+      "match_score": 1.0589705397163176
+    },
+    {
+      "step_face_id": 261,
+      "surface_type": "plane",
+      "origin": [
+        0.05,
+        0.025,
+        0.025
+      ],
+      "direction": [
+        -1.0,
+        -2.77555756156289e-16,
+        0.0
+      ],
+      "radius": null,
+      "orientation_flag": ".F.",
+      "centroid": [
+        0.049999999999999996,
+        0.02375,
+        0.028749999999999998
+      ],
+      "area_estimate": null,
+      "matched_occ_face_index": 8,
+      "match_score": 0.7197665188064999
+    },
+    {
+      "step_face_id": 262,
+      "surface_type": "plane",
+      "origin": [
+        0.025,
+        0.05,
+        0.025
+      ],
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": null,
+      "orientation_flag": ".T.",
+      "centroid": [
+        0.025,
+        0.05,
+        0.0225
+      ],
+      "area_estimate": null,
+      "matched_occ_face_index": 13,
+      "match_score": 0.9727633286336831
+    },
+    {
+      "step_face_id": 263,
+      "surface_type": "plane",
+      "origin": [
+        0.025,
+        0.025,
+        0.0
+      ],
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "radius": null,
+      "orientation_flag": ".F.",
+      "centroid": [
+        0.025,
+        0.025,
+        0.0
+      ],
+      "area_estimate": null,
+      "matched_occ_face_index": 14,
+      "match_score": 1.210122713925584
+    },
+    {
+      "step_face_id": 264,
+      "surface_type": "plane",
+      "origin": [
+        0.0075,
+        0.015,
+        0.045
+      ],
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": null,
+      "orientation_flag": ".T.",
+      "centroid": [
+        0.0075,
+        0.015,
+        0.035
+      ],
+      "area_estimate": null,
+      "matched_occ_face_index": 5,
+      "match_score": 1.118465930030026
+    },
+    {
+      "step_face_id": 265,
+      "surface_type": "plane",
+      "origin": [
+        0.015,
+        0.0075,
+        0.045
+      ],
+      "direction": [
+        -1.0,
+        -2.31296463463574e-16,
+        0.0
+      ],
+      "radius": null,
+      "orientation_flag": ".F.",
+      "centroid": [
+        0.015,
+        0.0075,
+        0.035
+      ],
+      "area_estimate": null,
+      "matched_occ_face_index": 4,
+      "match_score": 1.157696547139457
+    },
+    {
+      "step_face_id": 266,
+      "surface_type": "plane",
+      "origin": [
+        0.025,
+        0.025,
+        0.045
+      ],
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "radius": null,
+      "orientation_flag": ".T.",
+      "centroid": [
+        0.0075,
+        0.0075,
+        0.045
+      ],
+      "area_estimate": null,
+      "matched_occ_face_index": 9,
+      "match_score": 0.8576686800013
+    },
+    {
+      "step_face_id": 267,
+      "surface_type": "plane",
+      "origin": [
+        0.0425,
+        0.015,
+        0.045
+      ],
+      "direction": [
+        1.15648231731787e-16,
+        -1.0,
+        0.0
+      ],
+      "radius": null,
+      "orientation_flag": ".F.",
+      "centroid": [
+        0.0425,
+        0.015,
+        0.035
+      ],
+      "area_estimate": null,
+      "matched_occ_face_index": 3,
+      "match_score": 0.7064794348106282
+    },
+    {
+      "step_face_id": 268,
+      "surface_type": "plane",
+      "origin": [
+        0.035,
+        0.0075,
+        0.045
+      ],
+      "direction": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "radius": null,
+      "orientation_flag": ".T.",
+      "centroid": [
+        0.035,
+        0.0075,
+        0.035
+      ],
+      "area_estimate": null,
+      "matched_occ_face_index": 11,
+      "match_score": 0.9287069257194708
+    },
+    {
+      "step_face_id": 269,
+      "surface_type": "plane",
+      "origin": [
+        0.025,
+        0.025,
+        0.045
+      ],
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "radius": null,
+      "orientation_flag": ".T.",
+      "centroid": [
+        0.0425,
+        0.0075,
+        0.045
+      ],
+      "area_estimate": null,
+      "matched_occ_face_index": 1,
+      "match_score": 0.7120644797178568
+    },
+    {
+      "step_face_id": 270,
+      "surface_type": "plane",
+      "origin": [
+        0.025,
+        0.03,
+        0.045
+      ],
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": null,
+      "orientation_flag": ".F.",
+      "centroid": [
+        0.025,
+        0.03,
+        0.035
+      ],
+      "area_estimate": null,
+      "matched_occ_face_index": 7,
+      "match_score": 0.7198006788280902
+    },
+    {
+      "step_face_id": 271,
+      "surface_type": "plane",
+      "origin": [
+        0.025,
+        0.025,
+        0.045
+      ],
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "radius": null,
+      "orientation_flag": ".T.",
+      "centroid": [
+        0.025,
+        0.04,
+        0.045
+      ],
+      "area_estimate": null,
+      "matched_occ_face_index": 6,
+      "match_score": 0.6556792345504696
+    }
+  ],
+  "region_to_voxel_count": {
+    "1": 1071,
+    "7": 303,
+    "2": 2025,
+    "3": 1909,
+    "4": 1987,
+    "10": 303,
+    "13": 1019,
+    "14": 998,
+    "5": 2225,
+    "8": 283,
+    "11": 283,
+    "6": 2404,
+    "9": 196,
+    "12": 196
+  },
+  "pmi_records": [
+    {
+      "pmi_id": "dimension_590",
+      "category": "dimension",
+      "subtype": "DIMENSIONAL_LOCATION",
+      "label": "linear distance",
+      "value": 20.0,
+      "unit": "mm",
+      "modifiers": [],
+      "datum_refs": [],
+      "source_entity_ids": [
+        585,
+        589,
+        590
+      ],
+      "linked_shape_aspect_ids": [
+        581,
+        583
+      ],
+      "linked_step_face_ids": [
+        262,
+        270
+      ],
+      "linked_occ_face_indices": [
+        7,
+        13
+      ],
+      "linked_region_ids": [
+        7,
+        13
+      ],
+      "valid_association": true,
+      "association_method": "step_face_to_occ_face_signature_match",
+      "notes": []
+    },
+    {
+      "pmi_id": "dimension_636",
+      "category": "dimension",
+      "subtype": "DIMENSIONAL_LOCATION",
+      "label": "linear distance",
+      "value": 15.0,
+      "unit": "mm",
+      "modifiers": [],
+      "datum_refs": [],
+      "source_entity_ids": [
+        631,
+        635,
+        636
+      ],
+      "linked_shape_aspect_ids": [
+        627,
+        629
+      ],
+      "linked_step_face_ids": [
+        267,
+        270
+      ],
+      "linked_occ_face_indices": [
+        3,
+        7
+      ],
+      "linked_region_ids": [
+        3,
+        7
+      ],
+      "valid_association": true,
+      "association_method": "step_face_to_occ_face_signature_match",
+      "notes": []
+    },
+    {
+      "pmi_id": "gtol_545",
+      "category": "geometric_tolerance",
+      "subtype": "geometric_tolerance",
+      "label": null,
+      "value": 0.5,
+      "unit": "mm",
+      "modifiers": [
+        "(\nGEOMETRIC_TOLERANCE('gtol',$,#544,#539)\nGEOMETRIC_TOLERANCE_WITH_DATUM_REFERENCE((#542))\nGEOMETRIC_TOLERANCE_WITH_MODIFIERS($)\nPOSITION_TOLERANCE()\n)"
+      ],
+      "datum_refs": [],
+      "source_entity_ids": [
+        545
+      ],
+      "linked_shape_aspect_ids": [
+        539
+      ],
+      "linked_step_face_ids": [
+        267
+      ],
+      "linked_occ_face_indices": [
+        3
+      ],
+      "linked_region_ids": [
+        3
+      ],
+      "valid_association": true,
+      "association_method": "step_face_to_occ_face_signature_match",
+      "notes": []
+    },
+    {
+      "pmi_id": "gtol_679",
+      "category": "geometric_tolerance",
+      "subtype": "geometric_tolerance",
+      "label": null,
+      "value": 0.1,
+      "unit": "mm",
+      "modifiers": [
+        "(\nGEOMETRIC_TOLERANCE('gtol',$,#678,#673)\nGEOMETRIC_TOLERANCE_WITH_DATUM_REFERENCE((#676))\nGEOMETRIC_TOLERANCE_WITH_MODIFIERS($)\nPOSITION_TOLERANCE()\n)"
+      ],
+      "datum_refs": [],
+      "source_entity_ids": [
+        679
+      ],
+      "linked_shape_aspect_ids": [
+        673
+      ],
+      "linked_step_face_ids": [
+        270
+      ],
+      "linked_occ_face_indices": [
+        7
+      ],
+      "linked_region_ids": [
+        7
+      ],
+      "valid_association": true,
+      "association_method": "step_face_to_occ_face_signature_match",
+      "notes": []
+    },
+    {
+      "pmi_id": "datum_456",
+      "category": "datum",
+      "subtype": "datum",
+      "label": "Datum B",
+      "value": null,
+      "unit": null,
+      "modifiers": [],
+      "datum_refs": [],
+      "source_entity_ids": [
+        456
+      ],
+      "linked_shape_aspect_ids": [
+        456
+      ],
+      "linked_step_face_ids": [
+        270
+      ],
+      "linked_occ_face_indices": [
+        7
+      ],
+      "linked_region_ids": [
+        7
+      ],
+      "valid_association": true,
+      "association_method": "step_face_to_occ_face_signature_match",
+      "notes": []
+    },
+    {
+      "pmi_id": "datum_457",
+      "category": "datum",
+      "subtype": "datum_feature",
+      "label": "Datum_feature B",
+      "value": null,
+      "unit": null,
+      "modifiers": [],
+      "datum_refs": [],
+      "source_entity_ids": [
+        457
+      ],
+      "linked_shape_aspect_ids": [
+        457
+      ],
+      "linked_step_face_ids": [
+        270
+      ],
+      "linked_occ_face_indices": [
+        7
+      ],
+      "linked_region_ids": [
+        7
+      ],
+      "valid_association": true,
+      "association_method": "step_face_to_occ_face_signature_match",
+      "notes": []
+    },
+    {
+      "pmi_id": "datum_498",
+      "category": "datum",
+      "subtype": "datum",
+      "label": "Datum A",
+      "value": null,
+      "unit": null,
+      "modifiers": [],
+      "datum_refs": [],
+      "source_entity_ids": [
+        498
+      ],
+      "linked_shape_aspect_ids": [
+        498
+      ],
+      "linked_step_face_ids": [
+        262
+      ],
+      "linked_occ_face_indices": [
+        13
+      ],
+      "linked_region_ids": [
+        13
+      ],
+      "valid_association": true,
+      "association_method": "step_face_to_occ_face_signature_match",
+      "notes": []
+    },
+    {
+      "pmi_id": "datum_499",
+      "category": "datum",
+      "subtype": "datum_feature",
+      "label": "Datum_feature A",
+      "value": null,
+      "unit": null,
+      "modifiers": [],
+      "datum_refs": [],
+      "source_entity_ids": [
+        499
+      ],
+      "linked_shape_aspect_ids": [
+        499
+      ],
+      "linked_step_face_ids": [
+        262
+      ],
+      "linked_occ_face_indices": [
+        13
+      ],
+      "linked_region_ids": [
+        13
+      ],
+      "valid_association": true,
+      "association_method": "step_face_to_occ_face_signature_match",
+      "notes": []
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "metadata": {
+    "format": "step_ap242_voxel_semantic_layer_v1",
+    "notes": [
+      "occupancy grid stores geometry",
+      "region_id_grid stores best-effort boundary face-region labels",
+      "PMI remains in a sidecar semantic layer rather than dense voxel channels"
+    ]
+  },
+  "occ_regions": [
+    {
+      "occ_face_index": 1,
+      "surface_type": "plane",
+      "origin": [
+        0.0,
+        -25.0,
+        50.0
+      ],
+      "direction": [
+        1.38777878078145e-16,
+        -1.0,
+        0.0
+      ],
+      "radius": null,
+      "area": 2500.0,
+      "bbox_min": [
+        -25.0,
+        -25.0,
+        0.0
+      ],
+      "bbox_max": [
+        25.0,
+        -25.0,
+        50.0
+      ],
+      "centroid": [
+        0.0,
+        -25.0,
+        25.0
+      ],
+      "triangle_count": 2
+    },
+    {
+      "occ_face_index": 2,
+      "surface_type": "plane",
+      "origin": [
+        25.0,
+        6.93889390390723e-15,
+        50.0
+      ],
+      "direction": [
+        -1.0,
+        6.93889390390723e-17,
+        0.0
+      ],
+      "radius": null,
+      "area": 2500.0,
+      "bbox_min": [
+        25.0,
+        -25.0,
+        0.0
+      ],
+      "bbox_max": [
+        25.0,
+        25.0,
+        50.0
+      ],
+      "centroid": [
+        25.0,
+        0.0,
+        25.0
+      ],
+      "triangle_count": 2
+    },
+    {
+      "occ_face_index": 3,
+      "surface_type": "plane",
+      "origin": [
+        0.0,
+        25.0,
+        50.0
+      ],
+      "direction": [
+        1.38777878078145e-16,
+        -1.0,
+        0.0
+      ],
+      "radius": null,
+      "area": 2500.0,
+      "bbox_min": [
+        -25.0,
+        25.0,
+        0.0
+      ],
+      "bbox_max": [
+        25.0,
+        25.0,
+        50.0
+      ],
+      "centroid": [
+        0.0,
+        25.0,
+        25.0
+      ],
+      "triangle_count": 2
+    },
+    {
+      "occ_face_index": 4,
+      "surface_type": "plane",
+      "origin": [
+        -25.0,
+        -6.93889390390723e-15,
+        50.0
+      ],
+      "direction": [
+        -1.0,
+        6.93889390390723e-17,
+        0.0
+      ],
+      "radius": null,
+      "area": 2500.0,
+      "bbox_min": [
+        -25.0,
+        -25.0,
+        0.0
+      ],
+      "bbox_max": [
+        -25.0,
+        25.0,
+        50.0
+      ],
+      "centroid": [
+        -25.0,
+        0.0,
+        25.0
+      ],
+      "triangle_count": 2
+    },
+    {
+      "occ_face_index": 5,
+      "surface_type": "plane",
+      "origin": [
+        0.0,
+        0.0,
+        50.0
+      ],
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "radius": null,
+      "area": 2500.0,
+      "bbox_min": [
+        -25.0,
+        -25.0,
+        50.0
+      ],
+      "bbox_max": [
+        25.0,
+        25.0,
+        50.0
+      ],
+      "centroid": [
+        0.0,
+        0.0,
+        50.0
+      ],
+      "triangle_count": 2
+    },
+    {
+      "occ_face_index": 6,
+      "surface_type": "plane",
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "radius": null,
+      "area": 2500.0,
+      "bbox_min": [
+        -25.0,
+        -25.0,
+        0.0
+      ],
+      "bbox_max": [
+        25.0,
+        25.0,
+        0.0
+      ],
+      "centroid": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "triangle_count": 2
+    }
+  ],
+  "step_faces": [
+    {
+      "step_face_id": 98,
+      "surface_type": "plane",
+      "origin": null,
+      "direction": null,
+      "radius": null,
+      "orientation_flag": ".T.",
+      "matched_occ_face_index": null,
+      "match_score": null
+    },
+    {
+      "step_face_id": 99,
+      "surface_type": "plane",
+      "origin": null,
+      "direction": null,
+      "radius": null,
+      "orientation_flag": ".F.",
+      "matched_occ_face_index": null,
+      "match_score": null
+    },
+    {
+      "step_face_id": 100,
+      "surface_type": "plane",
+      "origin": null,
+      "direction": null,
+      "radius": null,
+      "orientation_flag": ".F.",
+      "matched_occ_face_index": null,
+      "match_score": null
+    },
+    {
+      "step_face_id": 101,
+      "surface_type": "plane",
+      "origin": null,
+      "direction": null,
+      "radius": null,
+      "orientation_flag": ".T.",
+      "matched_occ_face_index": null,
+      "match_score": null
+    },
+    {
+      "step_face_id": 102,
+      "surface_type": "plane",
+      "origin": null,
+      "direction": null,
+      "radius": null,
+      "orientation_flag": ".T.",
+      "matched_occ_face_index": null,
+      "match_score": null
+    },
+    {
+      "step_face_id": 103,
+      "surface_type": "plane",
+      "origin": null,
+      "direction": null,
+      "radius": null,
+      "orientation_flag": ".F.",
+      "matched_occ_face_index": null,
+      "match_score": null
+    }
+  ],
+  "region_to_voxel_count": {
+    "1": 2599,
+    "6": 2402,
+    "4": 2500,
+    "2": 2549,
+    "3": 2551,
+    "5": 2401
+  },
+  "pmi_records": []
+}
