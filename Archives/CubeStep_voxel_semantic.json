@@ -150,7 +150,7 @@
         1.0
       ],
       "radius": null,
-      "area": 1793.1416529422963,
+      "area": 2500.0,
       "bbox_min": [
         -25.0,
         -25.0,
@@ -162,11 +162,11 @@
         50.0
       ],
       "centroid": [
-        5.406303424261632e-16,
-        -4.247809833348425e-15,
+        0.0,
+        0.0,
         50.0
       ],
-      "triangle_count": 46
+      "triangle_count": 2
     },
     {
       "occ_face_index": 6,
@@ -182,7 +182,7 @@
         1.0
       ],
       "radius": null,
-      "area": 1793.1416529422963,
+      "area": 2500.0,
       "bbox_min": [
         -25.0,
         -25.0,
@@ -194,48 +194,16 @@
         0.0
       ],
       "centroid": [
-        5.406303424261632e-16,
-        -4.247809833348425e-15,
-        0.0
-      ],
-      "triangle_count": 46
-    },
-    {
-      "occ_face_index": 7,
-      "surface_type": "cylinder",
-      "origin": [
-        0.0,
-        9.18485099360515e-16,
-        0.0
-      ],
-      "direction": [
         0.0,
         0.0,
-        1.0
-      ],
-      "radius": 15.0,
-      "area": 4712.38898038469,
-      "bbox_min": [
-        -15.0,
-        -14.9580569577177,
         0.0
       ],
-      "bbox_max": [
-        15.0,
-        14.958056957717703,
-        50.0
-      ],
-      "centroid": [
-        0.3488372093023263,
-        -4.254994289726181e-15,
-        25.0
-      ],
-      "triangle_count": 84
+      "triangle_count": 2
     }
   ],
   "step_faces": [
     {
-      "step_face_id": 117,
+      "step_face_id": 98,
       "surface_type": "plane",
       "origin": [
         0.0,
@@ -271,7 +239,7 @@
       "match_reason": "selected by global one-to-one assignment"
     },
     {
-      "step_face_id": 118,
+      "step_face_id": 99,
       "surface_type": "plane",
       "origin": [
         25.0,
@@ -307,7 +275,7 @@
       "match_reason": "selected by global one-to-one assignment"
     },
     {
-      "step_face_id": 119,
+      "step_face_id": 100,
       "surface_type": "plane",
       "origin": [
         0.0,
@@ -343,7 +311,7 @@
       "match_reason": "selected by global one-to-one assignment"
     },
     {
-      "step_face_id": 120,
+      "step_face_id": 101,
       "surface_type": "plane",
       "origin": [
         -25.0,
@@ -379,7 +347,7 @@
       "match_reason": "selected by global one-to-one assignment"
     },
     {
-      "step_face_id": 121,
+      "step_face_id": 102,
       "surface_type": "plane",
       "origin": [
         0.0,
@@ -394,7 +362,7 @@
       "radius": null,
       "orientation_flag": ".T.",
       "centroid": [
-        3.0,
+        0.0,
         0.0,
         50.0
       ],
@@ -410,12 +378,12 @@
         50.0
       ],
       "matched_occ_face_index": 5,
-      "match_score": 0.025455844122715707,
+      "match_score": 0.0,
       "match_confidence": "exact",
       "match_reason": "selected by global one-to-one assignment"
     },
     {
-      "step_face_id": 122,
+      "step_face_id": 103,
       "surface_type": "plane",
       "origin": [
         0.0,
@@ -430,7 +398,7 @@
       "radius": null,
       "orientation_flag": ".F.",
       "centroid": [
-        3.0,
+        0.0,
         0.0,
         0.0
       ],
@@ -446,146 +414,18 @@
         0.0
       ],
       "matched_occ_face_index": 6,
-      "match_score": 0.025455844122715707,
+      "match_score": 0.0,
       "match_confidence": "exact",
-      "match_reason": "selected by global one-to-one assignment"
-    },
-    {
-      "step_face_id": 123,
-      "surface_type": "cylinder",
-      "origin": [
-        0.0,
-        9.18485099360515e-16,
-        0.0
-      ],
-      "direction": [
-        0.0,
-        0.0,
-        1.0
-      ],
-      "radius": 15.0,
-      "orientation_flag": ".F.",
-      "centroid": [
-        15.0,
-        9.18485099360515e-16,
-        25.0
-      ],
-      "area_estimate": null,
-      "bbox_min": [
-        15.0,
-        9.18485099360515e-16,
-        0.0
-      ],
-      "bbox_max": [
-        15.0,
-        9.18485099360515e-16,
-        50.0
-      ],
-      "matched_occ_face_index": 7,
-      "match_score": 0.1444107188087963,
-      "match_confidence": "high",
       "match_reason": "selected by global one-to-one assignment"
     }
   ],
   "region_to_voxel_count": {
-    "5": 1876,
-    "1": 2499,
-    "6": 1876,
-    "2": 2450,
-    "3": 2450,
-    "4": 2401,
-    "7": 6024
+    "1": 2599,
+    "6": 2402,
+    "4": 2500,
+    "2": 2549,
+    "3": 2551,
+    "5": 2401
   },
-  "pmi_records": [
-    {
-      "pmi_id": "dimension_282",
-      "category": "dimension",
-      "subtype": "DIMENSIONAL_LOCATION",
-      "label": "linear distance centre",
-      "value": 25.0,
-      "unit": "mm",
-      "modifiers": [],
-      "datum_refs": [],
-      "source_entity_ids": [
-        272,
-        281,
-        282
-      ],
-      "linked_shape_aspect_ids": [
-        268,
-        270
-      ],
-      "linked_step_face_ids": [
-        119,
-        123
-      ],
-      "linked_occ_face_indices": [
-        3,
-        7
-      ],
-      "linked_region_ids": [
-        3,
-        7
-      ],
-      "valid_association": true,
-      "association_method": "step_face_to_occ_face_signature_match",
-      "notes": []
-    },
-    {
-      "pmi_id": "datum_226",
-      "category": "datum",
-      "subtype": "datum",
-      "label": "Datum A",
-      "value": null,
-      "unit": null,
-      "modifiers": [],
-      "datum_refs": [],
-      "source_entity_ids": [
-        226
-      ],
-      "linked_shape_aspect_ids": [
-        226
-      ],
-      "linked_step_face_ids": [
-        119
-      ],
-      "linked_occ_face_indices": [
-        3
-      ],
-      "linked_region_ids": [
-        3
-      ],
-      "valid_association": true,
-      "association_method": "step_face_to_occ_face_signature_match",
-      "notes": []
-    },
-    {
-      "pmi_id": "datum_227",
-      "category": "datum",
-      "subtype": "datum_feature",
-      "label": "Datum_feature A",
-      "value": null,
-      "unit": null,
-      "modifiers": [],
-      "datum_refs": [],
-      "source_entity_ids": [
-        227
-      ],
-      "linked_shape_aspect_ids": [
-        227
-      ],
-      "linked_step_face_ids": [
-        119
-      ],
-      "linked_occ_face_indices": [
-        3
-      ],
-      "linked_region_ids": [
-        3
-      ],
-      "valid_association": true,
-      "association_method": "step_face_to_occ_face_signature_match",
-      "notes": []
-    }
-  ]
+  "pmi_records": []
 }

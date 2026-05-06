@@ -1,0 +1,20 @@
+{
+  "input_step_filename": "Archives/CubeStep.step",
+  "summary": {
+    "total_pmi_records_parsed": 0,
+    "number_of_datums": 0,
+    "number_of_dimensions": 0,
+    "number_of_geometric_tolerances": 0,
+    "pmi_records_linked_to_step_faces": 0,
+    "pmi_records_mapped_to_occ_regions": 0,
+    "pmi_records_mapped_to_voxel_regions": 0,
+    "valid_for_embedding": 0,
+    "not_valid_for_embedding": 0,
+    "displayed_correctly": 0,
+    "displayed_approximately": 0,
+    "displayed_incorrectly": 0,
+    "display_not_supported": 0,
+    "unsupported_pmi_types_encountered": []
+  },
+  "pmi_records": []
+}
