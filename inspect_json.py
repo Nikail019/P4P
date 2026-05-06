@@ -107,6 +107,7 @@ def show_step_faces(console: Console, data: dict, full: bool):
     table.add_column("Surface Type", style="green")
     table.add_column("Matched OCC Region", justify="center")
     table.add_column("Score", justify="right")
+    table.add_column("Confidence", justify="center")
     table.add_column("Orientation", justify="center")
 
     if full:
@@ -129,6 +130,7 @@ def show_step_faces(console: Console, data: dict, full: bool):
             f["surface_type"],
             match_str,
             score_str,
+            f.get("match_confidence", "-"),
             f.get("orientation_flag", "-"),
         ]
         if full:

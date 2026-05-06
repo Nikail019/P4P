@@ -1,0 +1,234 @@
+{
+  "capabilities": [
+    {
+      "pmi_type": "datums",
+      "parsed_from_step": "partial",
+      "semantic_value_extracted": "partial",
+      "linked_to_step_faces": "partial",
+      "mapped_to_occ_voxel_region": "partial",
+      "displayed_in_viewer": "partial",
+      "current_project_support": "partial",
+      "notes": "DATUM/DATUM_FEATURE/DATUM_TARGET entities are parsed; label and face mapping can work, but formal datum feature symbol semantics are incomplete."
+    },
+    {
+      "pmi_type": "datum labels / datum features",
+      "parsed_from_step": "partial",
+      "semantic_value_extracted": "partial",
+      "linked_to_step_faces": "partial",
+      "mapped_to_occ_voxel_region": "partial",
+      "displayed_in_viewer": "partial",
+      "current_project_support": "partial",
+      "notes": "Datum label extraction is simple string-based; display is approximate flag/leader."
+    },
+    {
+      "pmi_type": "linear distance dimensions",
+      "parsed_from_step": "partial",
+      "semantic_value_extracted": "yes",
+      "linked_to_step_faces": "partial",
+      "mapped_to_occ_voxel_region": "partial",
+      "displayed_in_viewer": "partial",
+      "current_project_support": "partial",
+      "notes": "DIMENSIONAL_CHARACTERISTIC_REPRESENTATION is parsed. Two-plane display can be reconstructed along plane normal; cylinder/axis cases remain approximate."
+    },
+    {
+      "pmi_type": "diameter dimensions",
+      "parsed_from_step": "partial",
+      "semantic_value_extracted": "partial",
+      "linked_to_step_faces": "partial",
+      "mapped_to_occ_voxel_region": "partial",
+      "displayed_in_viewer": "partial",
+      "current_project_support": "partial",
+      "notes": "May be parsed as a generic dimension if represented through DIMENSIONAL_*; diameter semantics are not explicitly classified yet."
+    },
+    {
+      "pmi_type": "radius dimensions",
+      "parsed_from_step": "partial",
+      "semantic_value_extracted": "partial",
+      "linked_to_step_faces": "partial",
+      "mapped_to_occ_voxel_region": "partial",
+      "displayed_in_viewer": "partial",
+      "current_project_support": "partial",
+      "notes": "May be parsed as a generic dimension; radius-specific semantics are not fully separated from generic dimensions."
+    },
+    {
+      "pmi_type": "hole tolerances / hole size tolerances",
+      "parsed_from_step": "partial",
+      "semantic_value_extracted": "partial",
+      "linked_to_step_faces": "partial",
+      "mapped_to_occ_voxel_region": "partial",
+      "displayed_in_viewer": "partial",
+      "current_project_support": "partial",
+      "notes": "Hole size may be represented as dimensions/modifiers; fit semantics need more parsing."
+    },
+    {
+      "pmi_type": "ISO IT grades",
+      "parsed_from_step": "partial",
+      "semantic_value_extracted": "partial",
+      "linked_to_step_faces": "no",
+      "mapped_to_occ_voxel_region": "no",
+      "displayed_in_viewer": "no",
+      "current_project_support": "partial",
+      "notes": "Current code only searches modifiers for IT text; no robust ISO fit/grade parser."
+    },
+    {
+      "pmi_type": "general dimensional tolerances",
+      "parsed_from_step": "partial",
+      "semantic_value_extracted": "partial",
+      "linked_to_step_faces": "partial",
+      "mapped_to_occ_voxel_region": "partial",
+      "displayed_in_viewer": "partial",
+      "current_project_support": "partial",
+      "notes": "PLUS_MINUS_TOLERANCE and modifiers are retained raw, not normalized into upper/lower tolerance fields."
+    },
+    {
+      "pmi_type": "geometric tolerances",
+      "parsed_from_step": "partial",
+      "semantic_value_extracted": "partial",
+      "linked_to_step_faces": "partial",
+      "mapped_to_occ_voxel_region": "partial",
+      "displayed_in_viewer": "partial",
+      "current_project_support": "partial",
+      "notes": "Known tolerance entity names are recognized, but display is generic label/leader, not full FCF."
+    },
+    {
+      "pmi_type": "flatness",
+      "parsed_from_step": "partial",
+      "semantic_value_extracted": "partial",
+      "linked_to_step_faces": "partial",
+      "mapped_to_occ_voxel_region": "partial",
+      "displayed_in_viewer": "partial",
+      "current_project_support": "partial",
+      "notes": "Recognized when entity is FLATNESS_TOLERANCE; not standards-complete."
+    },
+    {
+      "pmi_type": "straightness",
+      "parsed_from_step": "partial",
+      "semantic_value_extracted": "partial",
+      "linked_to_step_faces": "partial",
+      "mapped_to_occ_voxel_region": "partial",
+      "displayed_in_viewer": "partial",
+      "current_project_support": "partial",
+      "notes": "Recognized when entity is STRAIGHTNESS_TOLERANCE; not standards-complete."
+    },
+    {
+      "pmi_type": "circularity",
+      "parsed_from_step": "partial",
+      "semantic_value_extracted": "partial",
+      "linked_to_step_faces": "partial",
+      "mapped_to_occ_voxel_region": "partial",
+      "displayed_in_viewer": "partial",
+      "current_project_support": "partial",
+      "notes": "Code currently recognizes ROUNDNESS_TOLERANCE rather than explicitly naming circularity."
+    },
+    {
+      "pmi_type": "cylindricity",
+      "parsed_from_step": "partial",
+      "semantic_value_extracted": "partial",
+      "linked_to_step_faces": "partial",
+      "mapped_to_occ_voxel_region": "partial",
+      "displayed_in_viewer": "partial",
+      "current_project_support": "partial",
+      "notes": "Recognized when entity is CYLINDRICITY_TOLERANCE; not standards-complete."
+    },
+    {
+      "pmi_type": "parallelism",
+      "parsed_from_step": "partial",
+      "semantic_value_extracted": "partial",
+      "linked_to_step_faces": "partial",
+      "mapped_to_occ_voxel_region": "partial",
+      "displayed_in_viewer": "partial",
+      "current_project_support": "partial",
+      "notes": "Entity name recognized; datum reference handling is lightweight."
+    },
+    {
+      "pmi_type": "perpendicularity",
+      "parsed_from_step": "partial",
+      "semantic_value_extracted": "partial",
+      "linked_to_step_faces": "partial",
+      "mapped_to_occ_voxel_region": "partial",
+      "displayed_in_viewer": "partial",
+      "current_project_support": "partial",
+      "notes": "Entity name recognized; datum reference handling is lightweight."
+    },
+    {
+      "pmi_type": "angularity",
+      "parsed_from_step": "partial",
+      "semantic_value_extracted": "partial",
+      "linked_to_step_faces": "partial",
+      "mapped_to_occ_voxel_region": "partial",
+      "displayed_in_viewer": "partial",
+      "current_project_support": "partial",
+      "notes": "Entity name recognized; datum reference handling is lightweight."
+    },
+    {
+      "pmi_type": "position",
+      "parsed_from_step": "partial",
+      "semantic_value_extracted": "partial",
+      "linked_to_step_faces": "partial",
+      "mapped_to_occ_voxel_region": "partial",
+      "displayed_in_viewer": "partial",
+      "current_project_support": "partial",
+      "notes": "POSITION_TOLERANCE recognized; feature control frame semantics are not normalized."
+    },
+    {
+      "pmi_type": "concentricity/coaxiality",
+      "parsed_from_step": "no",
+      "semantic_value_extracted": "no",
+      "linked_to_step_faces": "no",
+      "mapped_to_occ_voxel_region": "no",
+      "displayed_in_viewer": "no",
+      "current_project_support": "no",
+      "notes": "Not explicitly in the tolerance keyword list."
+    },
+    {
+      "pmi_type": "symmetry",
+      "parsed_from_step": "no",
+      "semantic_value_extracted": "no",
+      "linked_to_step_faces": "no",
+      "mapped_to_occ_voxel_region": "no",
+      "displayed_in_viewer": "no",
+      "current_project_support": "no",
+      "notes": "Not explicitly in the tolerance keyword list."
+    },
+    {
+      "pmi_type": "profile of a line",
+      "parsed_from_step": "partial",
+      "semantic_value_extracted": "partial",
+      "linked_to_step_faces": "partial",
+      "mapped_to_occ_voxel_region": "partial",
+      "displayed_in_viewer": "partial",
+      "current_project_support": "partial",
+      "notes": "PROFILE_OF_A_LINE_TOLERANCE recognized generically."
+    },
+    {
+      "pmi_type": "profile of a surface",
+      "parsed_from_step": "partial",
+      "semantic_value_extracted": "partial",
+      "linked_to_step_faces": "partial",
+      "mapped_to_occ_voxel_region": "partial",
+      "displayed_in_viewer": "partial",
+      "current_project_support": "partial",
+      "notes": "PROFILE_OF_A_SURFACE_TOLERANCE recognized generically."
+    },
+    {
+      "pmi_type": "runout / total runout",
+      "parsed_from_step": "partial",
+      "semantic_value_extracted": "partial",
+      "linked_to_step_faces": "partial",
+      "mapped_to_occ_voxel_region": "partial",
+      "displayed_in_viewer": "partial",
+      "current_project_support": "partial",
+      "notes": "CIRCULAR_RUNOUT_TOLERANCE and TOTAL_RUNOUT_TOLERANCE recognized generically."
+    },
+    {
+      "pmi_type": "surface finish",
+      "parsed_from_step": "no",
+      "semantic_value_extracted": "no",
+      "linked_to_step_faces": "no",
+      "mapped_to_occ_voxel_region": "no",
+      "displayed_in_viewer": "no",
+      "current_project_support": "no",
+      "notes": "Surface texture/finish entities are not parsed."
+    }
+  ]
+}

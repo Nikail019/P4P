@@ -1,0 +1,217 @@
+{
+  "input_step_filename": "Square_Hole.step",
+  "summary": {
+    "total_pmi_records_parsed": 3,
+    "number_of_datums": 2,
+    "number_of_dimensions": 1,
+    "number_of_geometric_tolerances": 0,
+    "pmi_records_linked_to_step_faces": 3,
+    "pmi_records_mapped_to_occ_regions": 3,
+    "pmi_records_mapped_to_voxel_regions": 3,
+    "usable_for_current_project_scope": 3,
+    "excluded_from_current_project_scope": 0,
+    "displayed_correctly": 0,
+    "displayed_approximately": 3,
+    "displayed_incorrectly": 0,
+    "display_not_supported": 0,
+    "unsupported_pmi_types_encountered": []
+  },
+  "current_model_qa_summary": {
+    "file": "Square_Hole.step",
+    "pmi_total": 3,
+    "datums": 2,
+    "linear_distances": 1,
+    "diameter_dimensions": 0,
+    "radius_dimensions": 0,
+    "hole_size_dimensions": 0,
+    "generic_dimensions": 0,
+    "geometric_tolerances": 0,
+    "classified_geometric_tolerances": 0,
+    "generic_geometric_tolerances": 0,
+    "it_grades_found": [],
+    "fit_classes_found": [],
+    "semantic_mapping_valid": 3,
+    "semantic_mapping_partial": 0,
+    "semantic_mapping_failed": 0,
+    "display_valid": 0,
+    "display_approximate": 3,
+    "display_not_supported": 0
+  },
+  "pmi_records": [
+    {
+      "pmi_id": "dimension_282",
+      "pmi_type": "dimension",
+      "pmi_subtype": "DIMENSIONAL_LOCATION",
+      "raw_step_entity_id": 282,
+      "raw_step_entity": "DIMENSIONAL_CHARACTERISTIC_REPRESENTATION(#272,#281)",
+      "parsed_value": 25.0,
+      "parsed_units": "mm",
+      "parsed_correctly": "valid",
+      "parsed_issue": "dimension value and unit parsed",
+      "referenced_step_faces": [
+        119,
+        123
+      ],
+      "linked_to_step_faces_correctly": "valid",
+      "mapped_occ_regions": [
+        3,
+        7
+      ],
+      "mapped_to_occ_regions_correctly": "valid",
+      "mapped_voxel_regions": [
+        3,
+        7
+      ],
+      "mapped_to_voxel_regions_correctly": "valid",
+      "semantic_mapping_status": "valid",
+      "semantic_classification_status": "medium",
+      "semantic_mapping_score": 0.1444107188087963,
+      "semantic_mapping_reason": "all referenced STEP faces mapped",
+      "dimension_classification": {
+        "dimension_subtype": "linear_distance",
+        "nominal_value": 25.0,
+        "units": "mm",
+        "tolerance_plus": null,
+        "tolerance_minus": null,
+        "tolerance_symmetric": null,
+        "raw_modifiers": [],
+        "referenced_step_faces": [
+          119,
+          123
+        ],
+        "mapped_occ_regions": [
+          3,
+          7
+        ],
+        "classification_confidence": "medium",
+        "classification_reason": "dimension links to cylinder but value does not match cylinder diameter/radius; likely centre/offset distance",
+        "it_grade": null,
+        "fit_class": null,
+        "fit_letter": null,
+        "fit_grade": null,
+        "raw_fit_text": null
+      },
+      "cylinder_qa": [
+        {
+          "mapped_cylindrical_region_id": 7,
+          "cylinder_radius": 15.0,
+          "cylinder_diameter": 30.0,
+          "cylinder_axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "cylinder_length_depth_estimate": 50.0,
+          "appears_to_describe": "linear_distance",
+          "confidence": "medium",
+          "reason": "dimension links to cylinder but value does not match cylinder diameter/radius; likely centre/offset distance"
+        }
+      ],
+      "geometric_tolerance_classification": null,
+      "display_status": "approximate",
+      "display_issue": "dimension involves a cylinder; centre/diameter/radius semantics are not fully reconstructed from AP242.",
+      "linear_distance_display_diagnostics": {
+        "pmi_id": "dimension_282",
+        "dimension_value": 25.0,
+        "referenced_regions": [
+          3,
+          7
+        ],
+        "display_start_point": [
+          0.0,
+          25.5,
+          25.5
+        ],
+        "display_end_point": [
+          0.5,
+          0.5,
+          25.5
+        ],
+        "display_vector": [
+          0.5,
+          -25.0,
+          0.0
+        ],
+        "expected_measurement_direction": null,
+        "angle_between_display_and_expected_degrees": null,
+        "display_status": "approximate",
+        "reason": "dimension involves a cylinder; centre/diameter/radius semantics are not fully reconstructed from AP242."
+      },
+      "usable_for_current_project_scope": true,
+      "semantic_record_valid": true,
+      "excluded_reason": null
+    },
+    {
+      "pmi_id": "datum_226",
+      "pmi_type": "datum",
+      "pmi_subtype": "datum",
+      "raw_step_entity_id": 226,
+      "raw_step_entity": "DATUM('Datum A','Datum A',#216,.F.,'A')",
+      "parsed_value": null,
+      "parsed_units": null,
+      "parsed_correctly": "valid",
+      "parsed_issue": "datum label parsed",
+      "referenced_step_faces": [
+        119
+      ],
+      "linked_to_step_faces_correctly": "valid",
+      "mapped_occ_regions": [
+        3
+      ],
+      "mapped_to_occ_regions_correctly": "valid",
+      "mapped_voxel_regions": [
+        3
+      ],
+      "mapped_to_voxel_regions_correctly": "valid",
+      "semantic_mapping_status": "valid",
+      "semantic_classification_status": "partial",
+      "semantic_mapping_score": 0.0,
+      "semantic_mapping_reason": "all referenced STEP faces mapped",
+      "dimension_classification": null,
+      "cylinder_qa": [],
+      "geometric_tolerance_classification": null,
+      "display_status": "approximate",
+      "display_issue": "datum label/leader is displayed, but formal datum feature symbol geometry is approximate.",
+      "linear_distance_display_diagnostics": null,
+      "usable_for_current_project_scope": true,
+      "semantic_record_valid": true,
+      "excluded_reason": null
+    },
+    {
+      "pmi_id": "datum_227",
+      "pmi_type": "datum",
+      "pmi_subtype": "datum_feature",
+      "raw_step_entity_id": 227,
+      "raw_step_entity": "DATUM_FEATURE('Datum_feature A','Datum_feature A',#216,.T.)",
+      "parsed_value": null,
+      "parsed_units": null,
+      "parsed_correctly": "valid",
+      "parsed_issue": "datum label parsed",
+      "referenced_step_faces": [
+        119
+      ],
+      "linked_to_step_faces_correctly": "valid",
+      "mapped_occ_regions": [
+        3
+      ],
+      "mapped_to_occ_regions_correctly": "valid",
+      "mapped_voxel_regions": [
+        3
+      ],
+      "mapped_to_voxel_regions_correctly": "valid",
+      "semantic_mapping_status": "valid",
+      "semantic_classification_status": "partial",
+      "semantic_mapping_score": 0.0,
+      "semantic_mapping_reason": "all referenced STEP faces mapped",
+      "dimension_classification": null,
+      "cylinder_qa": [],
+      "geometric_tolerance_classification": null,
+      "display_status": "approximate",
+      "display_issue": "datum label/leader is displayed, but formal datum feature symbol geometry is approximate.",
+      "linear_distance_display_diagnostics": null,
+      "usable_for_current_project_scope": true,
+      "semantic_record_valid": true,
+      "excluded_reason": null
+    }
+  ]
+}

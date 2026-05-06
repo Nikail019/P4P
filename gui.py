@@ -99,8 +99,8 @@ class Step2VoxGUI(tk.Tk):
 
         ttk.Label(post_frame, text="View mode:").pack(side=tk.LEFT, padx=(15, 2), pady=5)
         ttk.Combobox(
-            post_frame, textvariable=self.viz_mode, width=12,
-            values=["mbd", "regions", "pmi", "explode", "occupancy"], state="readonly",
+            post_frame, textvariable=self.viz_mode, width=15,
+            values=["mbd", "pmi-qa", "debug-mapping", "regions", "pmi", "explode", "occupancy"], state="readonly",
         ).pack(side=tk.LEFT, padx=5, pady=5)
 
         self.viz_btn = ttk.Button(
@@ -230,7 +230,7 @@ class Step2VoxGUI(tk.Tk):
             str(npz_path),
             "--mode", mode,
         ]
-        if mode in ("pmi", "explode", "mbd"):
+        if mode in ("pmi", "explode", "mbd", "debug-mapping", "pmi-qa"):
             if not json_path.exists():
                 messagebox.showerror("Error", f"JSON file not found:\n{json_path}")
                 return

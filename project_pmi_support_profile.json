@@ -1,0 +1,100 @@
+{
+  "level_1_supported_for_current_project_qa": [
+    {
+      "pmi_type": "datum labels",
+      "reason": "label can be parsed, linked, mapped, and audited; display is approximate."
+    },
+    {
+      "pmi_type": "datum features",
+      "reason": "datum feature face mapping can be audited when AP242 references resolve."
+    },
+    {
+      "pmi_type": "linear distance dimensions",
+      "reason": "DIMENSIONAL_LOCATION records with mapped references are classified conservatively; two-plane displays can be QA-checked."
+    }
+  ],
+  "level_2_partially_supported": [
+    {
+      "pmi_type": "diameter dimensions",
+      "reason": "detected by diameter text/symbol or cylinder diameter match; AP242 diameter semantics are not fully normalized."
+    },
+    {
+      "pmi_type": "radius dimensions",
+      "reason": "detected by radius text or cylinder radius match; not fully normalized."
+    },
+    {
+      "pmi_type": "hole size dimensions",
+      "reason": "detected when nominal value matches mapped cylinder diameter; hole fit semantics are partial."
+    },
+    {
+      "pmi_type": "general dimensional tolerances",
+      "reason": "raw modifiers are retained; upper/lower bounds are best-effort only."
+    },
+    {
+      "pmi_type": "upper/lower tolerance bounds",
+      "reason": "simple numeric extraction only; no full tolerance model."
+    },
+    {
+      "pmi_type": "ISO IT grades / IT6-IT10",
+      "reason": "IT/fit text can be detected if present; ISO 286 meaning is not interpreted."
+    },
+    {
+      "pmi_type": "generic geometric tolerances",
+      "reason": "detected and mapped, but not considered normalized enough for Level 1."
+    },
+    {
+      "pmi_type": "flatness",
+      "reason": "entity name classified; FCF semantics incomplete."
+    },
+    {
+      "pmi_type": "straightness",
+      "reason": "entity name classified; FCF semantics incomplete."
+    },
+    {
+      "pmi_type": "circularity",
+      "reason": "ROUNDNESS_TOLERANCE classified as circularity; FCF semantics incomplete."
+    },
+    {
+      "pmi_type": "cylindricity",
+      "reason": "entity name classified; FCF semantics incomplete."
+    },
+    {
+      "pmi_type": "parallelism",
+      "reason": "entity name classified; datum frame reconstruction is partial."
+    },
+    {
+      "pmi_type": "perpendicularity",
+      "reason": "entity name classified; datum frame reconstruction is partial."
+    },
+    {
+      "pmi_type": "angularity",
+      "reason": "entity name classified; datum frame reconstruction is partial."
+    },
+    {
+      "pmi_type": "position",
+      "reason": "entity name classified; target feature/tolerance zone semantics are partial."
+    },
+    {
+      "pmi_type": "profile",
+      "reason": "profile entity names are grouped; details incomplete."
+    },
+    {
+      "pmi_type": "runout",
+      "reason": "runout entity names are grouped; datum/axis semantics incomplete."
+    }
+  ],
+  "level_3_out_of_current_scope": [
+    {
+      "pmi_type": "surface finish",
+      "reason": "surface texture entities are not parsed."
+    },
+    {
+      "pmi_type": "full feature-control-frame rendering",
+      "reason": "viewer is QA-oriented, not standards-complete MBD reconstruction."
+    },
+    {
+      "pmi_type": "full ISO 286 fit interpretation",
+      "reason": "fit text may be detected, but fit meaning is not interpreted."
+    }
+  ]
+}

@@ -981,7 +981,7 @@
   },
   "pmi_records": [
     {
-      "pmi_id": "dimension_633",
+      "pmi_id": "dimension_590",
       "category": "dimension",
       "subtype": "DIMENSIONAL_LOCATION",
       "label": "linear distance",
@@ -990,13 +990,13 @@
       "modifiers": [],
       "datum_refs": [],
       "source_entity_ids": [
-        628,
-        632,
-        633
+        585,
+        589,
+        590
       ],
       "linked_shape_aspect_ids": [
-        624,
-        626
+        581,
+        583
       ],
       "linked_step_face_ids": [
         262,
@@ -1015,7 +1015,7 @@
       "notes": []
     },
     {
-      "pmi_id": "dimension_679",
+      "pmi_id": "dimension_636",
       "category": "dimension",
       "subtype": "DIMENSIONAL_LOCATION",
       "label": "linear distance",
@@ -1024,13 +1024,13 @@
       "modifiers": [],
       "datum_refs": [],
       "source_entity_ids": [
-        674,
-        678,
-        679
+        631,
+        635,
+        636
       ],
       "linked_shape_aspect_ids": [
-        670,
-        672
+        627,
+        629
       ],
       "linked_step_face_ids": [
         267,
@@ -1079,49 +1079,21 @@
       "notes": []
     },
     {
-      "pmi_id": "gtol_588",
-      "category": "geometric_tolerance",
-      "subtype": "parallelism_tolerance",
-      "label": null,
-      "value": 0.1,
-      "unit": "mm",
-      "modifiers": [],
-      "datum_refs": [],
-      "source_entity_ids": [
-        588
-      ],
-      "linked_shape_aspect_ids": [
-        581
-      ],
-      "linked_step_face_ids": [
-        270
-      ],
-      "linked_occ_face_indices": [
-        13
-      ],
-      "linked_region_ids": [
-        13
-      ],
-      "valid_association": true,
-      "association_method": "step_face_to_occ_face_signature_match",
-      "notes": []
-    },
-    {
-      "pmi_id": "gtol_722",
+      "pmi_id": "gtol_679",
       "category": "geometric_tolerance",
       "subtype": "geometric_tolerance",
       "label": null,
       "value": 0.1,
       "unit": "mm",
       "modifiers": [
-        "(\nGEOMETRIC_TOLERANCE('gtol',$,#721,#716)\nGEOMETRIC_TOLERANCE_WITH_DATUM_REFERENCE((#719))\nGEOMETRIC_TOLERANCE_WITH_MODIFIERS($)\nPOSITION_TOLERANCE()\n)"
+        "(\nGEOMETRIC_TOLERANCE('gtol',$,#678,#673)\nGEOMETRIC_TOLERANCE_WITH_DATUM_REFERENCE((#676))\nGEOMETRIC_TOLERANCE_WITH_MODIFIERS($)\nPOSITION_TOLERANCE()\n)"
       ],
       "datum_refs": [],
       "source_entity_ids": [
-        722
+        679
       ],
       "linked_shape_aspect_ids": [
-        716
+        673
       ],
       "linked_step_face_ids": [
         270
